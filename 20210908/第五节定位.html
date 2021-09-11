@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>定位</title>
+    </head>
+    <style>
+        .wrap{
+            width: 70vw;
+            height: 100px;
+            margin:0 auto;
+            background-color: #ccc;
+            position: relative;
+        }
+        .ps1,.ps2,.ps3{
+            position: absolute;
+            text-align: center;
+            line-height: 100px;
+            font-size: 20px;
+            width: 33%;
+            height: 100%;
+        }
+        .ps1{   
+            left: 0;
+            top: 0;
+            background-color: #f90;
+        }
+        .ps2{
+            right: 0;
+            top:0;
+            background-color: pink;
+        }
+        .ps3{
+            left: 33.5%;
+            top: 0;
+            background-color: rgb(33, 138, 47);
+        }
+    </style>
+    <body>
+        <section class="wrap">
+            <div class="ps1">1</div>
+            <div class="ps2">2</div>
+            <div class="ps3">3</div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>第三节作业</title>
+</head>
+<style>
+    header,
+    footer,
+    .content {
+        width: 50vw;
+        margin: 10px auto;
+    }
+
+    .wrap {
+        width: 100%;
+        /* background-color: #ccc; */
+    }
+
+    .wrap::after {
+        content: "";
+        clear: both;
+        display: block;
+        visibility: hidden;
+    }
+
+    .sty1,
+    .sty2,
+    .sty3 {
+        width: 33.33%;
+        height: 100px;
+        text-align: center;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+    }
+
+    .sty1 {
+        background-color: #f90;
+    }
+
+    .sty2 {
+        background-color: pink;
+    }
+
+    .sty3 {
+        background-color: rgb(31, 160, 48);
+    }
+
+    .fl {
+        float: left;
+    }
+</style>
+
+<body>
+    <header>
+        <h2>网页头部</h2>
+    </header>
+    <div class="content">
+        <section class="wrap">
+            <div class="sty1 fl">
+                <h5>名字：华强</h5>
+                <div>有一个人前来买瓜</div>
+            </div>
+            <div class="sty2 fl">
+                <h5>问题：你这瓜保熟吗</h5>
+                <div>要是保熟我肯定要呀</div>
+            </div>
+            <div class="sty3 fl">
+                <h5>你™故意找茬是不是</h5>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <h2>网页尾部</h2>
+    </footer>
+
+</body>
+
+</html>
+<!DOCTYPE html>
